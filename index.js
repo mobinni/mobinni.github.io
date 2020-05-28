@@ -31,7 +31,7 @@ var excluded_repos = ['blog-posts', 'mobinni.github.io',
  */
 function fetchRecent() {
     addAbout() 
-    fetchProjects();
+    fetchProjects(numRecentResponses, () => null);	
     if (includeBlogPosts) {
         fetchPosts(numRecentResponses, addPostsToPage);
     }
@@ -41,7 +41,7 @@ function fetchRecent() {
  * Adds list of all blog posts and removes projects 
  */
 function fetchAllPosts() {
-    fetchPosts(numAllResponses, addPostsToPage);
+    fetchPosts(numAllResponses, () => null);
     document.getElementById("projects").innerHTML = ""
 }
 
