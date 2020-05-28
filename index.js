@@ -22,7 +22,8 @@ var excluded_repos = ['blog-posts', 'mobinni.github.io',
 'contentful-experimentation',
 'react-native-versioning',
 'tsdx-lambda',
-'cloudformation-test'
+'cloudformation-test',
+'toronto-tooling'
 ]
 
 /**
