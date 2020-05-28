@@ -16,7 +16,14 @@ var numRecentResponses = 10;
 var numAllResponses = 100;
 
 //These repos are excluded from the site
-var excluded_repos = ['blog-posts']
+var excluded_repos = ['blog-posts', 'mobinni.github.io',
+'auto-blog',
+'grunt-typeset',
+'contentful-experimentation',
+'react-native-versioning',
+'tsdx-lambda',
+'cloudformation-test'
+]
 
 /**
  * Adds a list of recent posts and project pages on home page
