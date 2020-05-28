@@ -32,7 +32,7 @@ var excluded_repos = ['blog-posts', 'mobinni.github.io',
 function fetchRecent() {
     addAbout() 
     if (includeBlogPosts) {
-        fetchPosts(numRecentResponses, addPostsToPage);
+        fetchPosts(5, addPostsToPage);
     }
 }
 
