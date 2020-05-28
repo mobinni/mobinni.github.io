@@ -1,7 +1,7 @@
 // Change these to your usernames 
-var githubUserName = 'vksah32'
-var linkedinUserName = 'vksah'
-var twitterUserName = 'viveksyz'
+var githubUserName = 'mobinni'
+var linkedinUserName = 'mobinni'
+var twitterUserName = 'mobinni'
 
 //Default readme filename
 var readmeFile = 'README.md'
@@ -16,7 +16,7 @@ var numRecentResponses = 10;
 var numAllResponses = 100;
 
 //These repos are excluded from the site
-var excluded_repos = ['vksah32.github.io', 'screenshots', 'ontrack_android_app', 'resume', 'foogle', 'blog-posts']
+var excluded_repos = ['blog-posts']
 
 /**
  * Adds a list of recent posts and project pages on home page
